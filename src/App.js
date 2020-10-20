@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Data } from './Data';
-import { Error } from './Error';
-import { Loading } from './Loading';
+import {Data} from './Data';
+import {Error} from './Error';
+import {Loading} from './Loading';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Data />
     <Error />
     <Loading />
-  </>
+   </>
   );
 }
 

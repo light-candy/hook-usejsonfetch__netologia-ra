@@ -1,5 +1,5 @@
 import React from 'react';
-import { useJsonFetch } from './useJsonFetch';
+import {useJsonFetch} from './useJsonFetch';
 
 export function Error() {
     const[{ error }] = useJsonFetch("http://localhost:7070/error");
@@ -7,5 +7,5 @@ export function Error() {
         <>
          <p>{error && error.message}</p>
         </>
-    );
-}
+    )
+};
